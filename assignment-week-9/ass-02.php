@@ -6,8 +6,10 @@ while (!(feof($input))) {
     $paragraph .= fgets($input);
 }
 
-$sentences = explode(".", $paragraph);
+$sentences = explode(". ", $paragraph);
 
-foreach ($sentences as $key => $sentence) {
-    echo str_replace(["\n", "\r"], "", $sentence) . "\n";
+foreach ($sentences as $sentence) {
+    $cleaned_sentence = trim(str_replace(["\n", "\r", "."], "", $sentence));
+
+    echo $cleaned_sentence . ".\n";
 }

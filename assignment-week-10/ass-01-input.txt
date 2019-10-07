@@ -1,0 +1,5 @@
+4 
+Adam 5 
+Bob 10 
+Candy 15 
+Dian 
