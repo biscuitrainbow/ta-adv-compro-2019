@@ -1,0 +1,20 @@
+Adam
+3
+Red
+Black
+White
+h
+r 3
+t Red
+r 2
+i
+t Black
+r 5
+i
+re
+r 2 
+i
+t White
+r 3
+i
+e
